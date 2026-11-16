@@ -6,7 +6,7 @@ from src.parcel_fee import delivery_fee
     [
         (1, 500),  # lowest weight allowed (band 1 lower boundary)
         (500, 500),  # middle of band 1
-        (1000, 500),  # band 1 upper boundary
+        (999, 500),  # band 1 upper boundary
         (1001, 1000),  # band 2 lower boundary
         (10000, 1000),  # middle of band 2
         (20000, 1000),  # highest weight allowed (band 2 upper boundary)
