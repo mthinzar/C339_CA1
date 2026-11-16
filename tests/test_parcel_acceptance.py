@@ -7,9 +7,9 @@ from src.parcel_acceptance import is_parcel_accepted
     [
         (1, 1),  # lowest weight and length
         (5000, 100),  # typical parcel
-        (20000, 199),  # highest weight and length
+        (20000, 200),  # highest weight and length
         (20000, 1),  # highest weight, lowest length
-        (1, 199),  # lowest weight, highest length
+        (1, 200),  # lowest weight, highest length
     ],
 )
 def test_is_parcel_accepted_within_limits_returns_true(weight_grams, length_cm):
